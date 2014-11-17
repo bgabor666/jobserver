@@ -1,8 +1,8 @@
 package worker
 
 import (
-	"jobserver/database"
-	"jobserver/mailer"
+	"github.com/bgabor666/jobserver/database"
+	"github.com/bgabor666/jobserver/mailer"
 );
 
 type Process struct {

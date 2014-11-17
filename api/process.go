@@ -1,8 +1,8 @@
 package api
 
 import (
-	"jobserver/database"
-	"jobserver/worker"
+	"github.com/bgabor666/jobserver/database"
+	"github.com/bgabor666/jobserver/worker"
 	"net/http"
 	"strconv"
 	"strings"

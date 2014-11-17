@@ -3,7 +3,7 @@ package mailer
 import (
 	"strconv"
 	"net/smtp"
-	"jobserver/database"
+	"github.com/bgabor666/jobserver/database"
 	"log"
 	"fmt"
 	"encoding/base64"

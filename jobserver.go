@@ -1,10 +1,10 @@
 package main
 
 import (
-	"jobserver/mailer"
-	"jobserver/database"
-	"jobserver/worker"
-	"jobserver/api"
+	"github.com/bgabor666/jobserver/mailer"
+	"github.com/bgabor666/jobserver/database"
+	"github.com/bgabor666/jobserver/worker"
+	"github.com/bgabor666/jobserver/api"
 )
 
 func main() {
