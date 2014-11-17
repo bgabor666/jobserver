@@ -1,0 +1,11 @@
+JOBSERVER (University Project)
+
+Clone this repository into the following directory:
+$GOPATH/src/github.com/bgabor666
+
+Docker usage:
+1, Go to $GOPATH/src/github.com/bgabor666/jobserver
+2, Build: docker build -t jobserver .
+3, Run: docker run --publish 6060:8080 --name jobserver --rm jobserver
+4, Stop (from an other terminal): docker stop jobserver
+   
